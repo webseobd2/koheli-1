@@ -8,7 +8,7 @@ import { BASE_URL } from "@/lib/accessEnv";
 import { ICategory, IProduct } from "@/types";
 
 const inter = Inter({ subsets: ["latin"] });
-
+// Nothing
 export async function generateMetadata(): Promise<Metadata> {
   try {
     // Fetch site settings
